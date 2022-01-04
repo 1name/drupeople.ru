@@ -1,0 +1,15 @@
+name: MyTheme
+type: theme
+description: My Theme
+package: Core
+base theme: false
+core_version_requirement: ^8.8 || ^9
+
+libraries:
+  - mytheme/global-styling
+
+regions:
+  header: 'Header'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  footer: 'Footer'

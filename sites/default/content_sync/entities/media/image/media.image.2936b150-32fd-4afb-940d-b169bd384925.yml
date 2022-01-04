@@ -1,0 +1,73 @@
+uuid:
+  -
+    value: 2936b150-32fd-4afb-940d-b169bd384925
+langcode:
+  -
+    value: ru
+bundle:
+  -
+    target_id: image
+    target_type: media_type
+    target_uuid: 33cdb64d-7082-4c2f-b9f7-5cc87faa8d95
+revision_created:
+  -
+    value: '2021-09-03T16:00:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+name:
+  -
+    value: d8-logo.jpg
+thumbnail:
+  -
+    alt: 'Drupal 8'
+    title: null
+    width: 1024
+    height: 500
+    target_type: file
+    target_uuid: b8d54e8a-8b98-41a9-b66b-4f536f1c4868
+created:
+  -
+    value: '2021-09-03T16:00:09+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-09-03T16:00:09+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/main'
+    title: 'Главная страница | drupeople.ru'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: ru
+field_media_image:
+  -
+    alt: 'Drupal 8'
+    title: ''
+    width: 1024
+    height: 500
+    target_type: file
+    target_uuid: b8d54e8a-8b98-41a9-b66b-4f536f1c4868
+_content_sync:
+  entity_type: media
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    file:
+      - file.file.b8d54e8a-8b98-41a9-b66b-4f536f1c4868

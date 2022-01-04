@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 31240b21-214a-4db5-a771-c619bbf62c29
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: images.png
+uri:
+  -
+    value: 'public://images.png'
+    url: /sites/default/files/images.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 2235
+status:
+  -
+    value: true
+created:
+  -
+    value: '2021-07-16T19:35:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-07-16T19:35:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

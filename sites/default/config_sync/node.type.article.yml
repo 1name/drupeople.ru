@@ -1,0 +1,17 @@
+uuid: c0d50300-0334-450e-887b-5c0c9c8db285
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Статья
+type: article
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

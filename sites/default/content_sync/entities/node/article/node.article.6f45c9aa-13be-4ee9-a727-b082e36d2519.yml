@@ -1,0 +1,120 @@
+uuid:
+  -
+    value: 6f45c9aa-13be-4ee9-a727-b082e36d2519
+langcode:
+  -
+    value: ru
+type:
+  -
+    target_id: article
+    target_type: node_type
+    target_uuid: c0d50300-0334-450e-887b-5c0c9c8db285
+revision_timestamp:
+  -
+    value: '2021-09-03T18:30:01+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+title:
+  -
+    value: 'Как исправить ошибку Unknown collation: utf8mb4_0900_ai_ci'
+created:
+  -
+    value: '2021-09-03T18:17:45+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-09-04T10:17:27+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/article/kak-ispravit-oshibku-unknown-collation-utf8mb40900aici'
+    title: 'Как исправить ошибку Unknown collation: utf8mb4_0900_ai_ci | drupeople.ru'
+    description: 'исправить ошибку utf8mb4_0900_ai_ci mysql'
+path:
+  -
+    alias: /article/kak-ispravit-oshibku-unknown-collation-utf8mb40900aici
+body:
+  -
+    value: "<p>Collation это набор правил, которые описывают как сортировать и сравнивать строковые значения в БД. На разных версиях MySQL сервера этот параметр может отличаться. Поэтому при переносе сайта с одного сервера на другой вы можете получить ошибку:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">Unknown collation: 'utf8mb4_0900_ai_ci'</code></pre>\r\n\r\n<p>Связано это с тем, что вы пытаетесь восстановить БД сделанную на сервере с более свежей версией MySQL на сервер с версией ниже.&nbsp;</p>\r\n\r\n<p>Чтобы избавиться от этой проблемы, вам нужно заменить строки в вашем дампе БД с</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;</code></pre>\r\n\r\n<p>на</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;</code></pre>\r\n\r\n<p>Сделать это можно автозаменой если открыть дамп БД в текстовом редакторе (например Notepad++) или используя следующую Linux команду:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">sed -i 's/utf8mb4_0900_ai_ci/utf8mb4_unicode_ci/g' DATABASE.sql  </code></pre>\r\n\r\n<p>где&nbsp;<em>DATABASE.sql</em>&nbsp; имя вашего файла.</p>\r\n\r\n<p>После этого пробуйте восстановить БД на новом сервере.</p>\r\n"
+    format: editor
+    processed: |
+      <p>Collation это набор правил, которые описывают как сортировать и сравнивать строковые значения в БД. На разных версиях MySQL сервера этот параметр может отличаться. Поэтому при переносе сайта с одного сервера на другой вы можете получить ошибку:</p>
+
+      <pre>
+      <code class="language-bash">Unknown collation: 'utf8mb4_0900_ai_ci'</code></pre>
+
+      <p>Связано это с тем, что вы пытаетесь восстановить БД сделанную на сервере с более свежей версией MySQL на сервер с версией ниже. </p>
+
+      <p>Чтобы избавиться от этой проблемы, вам нужно заменить строки в вашем дампе БД с</p>
+
+      <pre>
+      <code class="language-bash">ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;</code></pre>
+
+      <p>на</p>
+
+      <pre>
+      <code class="language-bash">ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;</code></pre>
+
+      <p>Сделать это можно автозаменой если открыть дамп БД в текстовом редакторе (например Notepad++) или используя следующую Linux команду:</p>
+
+      <pre>
+      <code class="language-bash">sed -i 's/utf8mb4_0900_ai_ci/utf8mb4_unicode_ci/g' DATABASE.sql  </code></pre>
+
+      <p>где <em>DATABASE.sql</em>  имя вашего файла.</p>
+
+      <p>После этого пробуйте восстановить БД на новом сервере.</p>
+    summary: ''
+    summary_processed: ''
+field_image:
+  -
+    target_type: media
+    target_uuid: d551068f-38d9-4811-84dd-5de85782067f
+field_metatags:
+  -
+    value:
+      description: 'исправить ошибку utf8mb4_0900_ai_ci mysql'
+field_source:
+  -
+    value: 'https://tecadmin.net/resolved-unknown-collation-utf8mb4_0900_ai_ci/'
+field_tags:
+  -
+    target_type: taxonomy_term
+    target_uuid: 7348f123-590f-4b5c-8393-58c6012212f4
+field_teaser:
+  -
+    value: "<p>Иногда при переезде с одного сервера на другой может возникать эта ошибка MySQL. В статье я расскажу почему она возникает и как можно избавиться от нее.</p>\r\n"
+    format: editor
+    processed: |
+      <p>Иногда при переезде с одного сервера на другой может возникать эта ошибка MySQL. В статье я расскажу почему она возникает и как можно избавиться от нее.</p>
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    media:
+      - media.image.d551068f-38d9-4811-84dd-5de85782067f
+    taxonomy_term:
+      - taxonomy_term.tags.7348f123-590f-4b5c-8393-58c6012212f4

@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: e6577d1f-5507-46db-9f50-023ae17efd3c
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /taxonomy/term/3
+alias:
+  -
+    value: /tag/linux
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

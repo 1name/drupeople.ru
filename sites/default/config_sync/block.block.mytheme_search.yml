@@ -1,0 +1,23 @@
+uuid: cc7ef78f-5798-4ae9-9a62-fd4890695b9a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mytheme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: mytheme_search
+theme: mytheme
+region: header
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Поиск
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

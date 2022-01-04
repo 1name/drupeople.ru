@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: a9c8a0c9-6f8d-453b-a5a4-f0cbcd283518
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /taxonomy/term/1
+alias:
+  -
+    value: /tag/drupal-8
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

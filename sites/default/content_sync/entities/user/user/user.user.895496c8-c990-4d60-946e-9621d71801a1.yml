@@ -1,0 +1,43 @@
+uuid:
+  -
+    value: 895496c8-c990-4d60-946e-9621d71801a1
+langcode:
+  -
+    value: ru
+name:
+  -
+    value: lnwsvBZbGti
+created:
+  -
+    value: '2021-08-02T04:48:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-08-02T04:48:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/user/27'
+    title: 'lnwsvBZbGti | drupeople.ru'
+    description: drupeople.ru
+path:
+  -
+    alias: null
+    pid: null
+    langcode: ru
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: $S$ExOI.yi6FZAZYkC1Lyv53yVJVqGe2056X0jbDCTOnilTzJSMXFnb
+    pre_hashed: true
+mail:
+  value: hamptongillian15@gmail.com
+status:
+  value: '0'
+roles:
+  - authenticated

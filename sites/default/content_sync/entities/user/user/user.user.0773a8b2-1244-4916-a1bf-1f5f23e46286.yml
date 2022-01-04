@@ -1,0 +1,43 @@
+uuid:
+  -
+    value: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+langcode:
+  -
+    value: en
+name:
+  -
+    value: admin
+created:
+  -
+    value: '2021-05-25T16:08:18+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-05-25T16:16:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/user/1'
+    title: 'admin | drupeople.ru'
+    description: drupeople.ru
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: $S$EgU89Xb3J/7cHWx7ze7qCU8n211M3FynIQkqD7b.FM/b6hjx4hQU
+    pre_hashed: true
+mail:
+  value: admin@drupeople.ru
+status:
+  value: '1'
+roles:
+  - authenticated

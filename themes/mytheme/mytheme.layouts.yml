@@ -1,0 +1,7 @@
+custom_articles:
+  label: Articles list page
+  category: custom
+  template: templates/panels_layouts/custom-articles
+  regions:
+    body:
+      label: Body

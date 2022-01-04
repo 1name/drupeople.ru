@@ -1,0 +1,14 @@
+uuid: 3e629f11-f89a-490a-8d1c-06906c54481c
+langcode: ru
+status: true
+dependencies: {  }
+name: Редактор
+format: editor
+weight: -10
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: db2cad05-1e3b-4b35-b163-99d7d036130c
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: file_browser_icon.png
+uri:
+  -
+    value: 'public://file_browser_icon.png'
+    url: /sites/default/files/file_browser_icon.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 304
+status:
+  -
+    value: true
+created:
+  -
+    value: '2021-07-16T19:17:36+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-07-16T19:17:36+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

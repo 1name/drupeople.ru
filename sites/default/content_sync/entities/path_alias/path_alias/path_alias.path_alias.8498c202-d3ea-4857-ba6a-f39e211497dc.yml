@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 8498c202-d3ea-4857-ba6a-f39e211497dc
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /taxonomy/term/5
+alias:
+  -
+    value: /tag/docker
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

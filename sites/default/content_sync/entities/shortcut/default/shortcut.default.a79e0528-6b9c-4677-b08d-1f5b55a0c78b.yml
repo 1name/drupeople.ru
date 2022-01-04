@@ -1,0 +1,32 @@
+uuid:
+  -
+    value: a79e0528-6b9c-4677-b08d-1f5b55a0c78b
+langcode:
+  -
+    value: ru
+shortcut_set:
+  -
+    target_id: default
+    target_type: shortcut_set
+    target_uuid: 7f9d8b00-926e-4067-b24b-7e2654d31641
+title:
+  -
+    value: 'Add content'
+weight:
+  -
+    value: -20
+link:
+  -
+    uri: 'internal:/node/add'
+    title: null
+    options: {  }
+default_langcode:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/main'
+    title: 'Главная страница | drupeople.ru'
+_content_sync:
+  entity_type: shortcut
+  entity_dependencies: {  }

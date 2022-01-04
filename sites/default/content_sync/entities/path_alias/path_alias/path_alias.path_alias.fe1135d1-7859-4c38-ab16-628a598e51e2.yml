@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: fe1135d1-7859-4c38-ab16-628a598e51e2
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /node/5
+alias:
+  -
+    value: /article/kak-ispravit-oshibku-unknown-collation-utf8mb40900aici
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

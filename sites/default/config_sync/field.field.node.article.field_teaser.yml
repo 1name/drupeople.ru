@@ -1,0 +1,21 @@
+uuid: 42bf41d6-bd1e-4f91-bc7c-a4d7c87e5596
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser
+    - node.type.article
+  module:
+    - text
+id: node.article.field_teaser
+field_name: field_teaser
+entity_type: node
+bundle: article
+label: Вступление
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 3767ba40-c7eb-4b84-90ab-eb01529d2378
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /taxonomy/term/4
+alias:
+  -
+    value: /tag/views
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

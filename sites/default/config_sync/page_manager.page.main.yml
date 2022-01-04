@@ -1,0 +1,12 @@
+uuid: 99eba9ed-fda2-40b7-ac4c-7006334a847d
+langcode: ru
+status: true
+dependencies: {  }
+id: main
+label: 'Главная страница'
+description: ''
+use_admin_theme: false
+path: /main
+access_logic: and
+access_conditions: {  }
+parameters: {  }

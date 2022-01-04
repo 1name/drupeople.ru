@@ -1,0 +1,48 @@
+uuid:
+  -
+    value: 5a22fd0c-397f-4ae5-96a8-73f8f44ad331
+langcode:
+  -
+    value: en
+preferred_langcode:
+  -
+    value: en
+preferred_admin_langcode: {  }
+name:
+  -
+    value: ''
+mail:
+  value: null
+timezone:
+  -
+    value: ''
+created:
+  -
+    value: '2021-05-25T16:08:18+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-05-25T16:08:18+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+metatag:
+  value: {  }
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  is_anonymous: true
+pass:
+  -
+    value: null
+    pre_hashed: true
+status:
+  value: '0'
+roles:
+  - anonymous

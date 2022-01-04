@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: cdc925c1-b883-4781-b91c-186836ca4c62
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /node/2
+alias:
+  -
+    value: /article/kak-ustanovit-ili-izmenit-parol-polzovatelya-linux
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

@@ -1,0 +1,22 @@
+uuid: 2a1550d7-2be2-4a98-ac03-0261343cfa53
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mytheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mytheme_messages
+theme: mytheme
+region: content
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Системные сообщения'
+  provider: system
+  label_display: '0'
+visibility: {  }

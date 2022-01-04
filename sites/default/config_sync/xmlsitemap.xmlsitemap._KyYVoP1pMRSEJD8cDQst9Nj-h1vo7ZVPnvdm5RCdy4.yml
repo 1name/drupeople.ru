@@ -1,0 +1,8 @@
+uuid: 1c0dc3aa-fff8-414c-8566-2937136e6117
+langcode: ru
+status: true
+dependencies: {  }
+id: _KyYVoP1pMRSEJD8cDQst9Nj-h1vo7ZVPnvdm5RCdy4
+label: 'https://drupeople.ru'
+context:
+  language: ru

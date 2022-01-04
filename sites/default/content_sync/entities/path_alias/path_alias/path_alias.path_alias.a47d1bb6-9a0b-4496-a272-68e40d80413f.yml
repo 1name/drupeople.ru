@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: a47d1bb6-9a0b-4496-a272-68e40d80413f
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /node/1
+alias:
+  -
+    value: /article/kak-poluchit-url-adres-stranicy-drupal-8
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

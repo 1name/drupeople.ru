@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 5a2b5ada-41b4-415f-943e-4faf839b3036
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /taxonomy/term/6
+alias:
+  -
+    value: /tag/mysql
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

@@ -1,0 +1,15 @@
+uuid: 837c7b73-9a4b-49ce-89e6-ec1857346ed8
+langcode: ru
+status: true
+dependencies: {  }
+name: article_preview
+label: article_preview
+effects:
+  eb724788-d7f1-451f-92b7-f6b70794d978:
+    uuid: eb724788-d7f1-451f-92b7-f6b70794d978
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: null
+      upscale: false

@@ -1,0 +1,54 @@
+uuid:
+  -
+    value: 7348f123-590f-4b5c-8393-58c6012212f4
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: tags
+    target_type: taxonomy_vocabulary
+    target_uuid: 0c78bd52-8fb9-42f8-bfd9-e7a3bac6b429
+revision_created:
+  -
+    value: '2021-09-03T18:21:24+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: MySQL
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2021-09-03T18:21:24+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/tag/mysql'
+    title: 'MySQL | drupeople.ru'
+path:
+  -
+    alias: /tag/mysql
+_content_sync:
+  entity_type: taxonomy_term
+  entity_dependencies: {  }

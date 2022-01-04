@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: b3bce127-5fec-4202-b0b4-db09ab89c6dd
+langcode:
+  -
+    value: ru
+path:
+  -
+    value: /node/3
+alias:
+  -
+    value: /article/kak-sdelat-eksport-ili-import-predstavleniya-views-v-drupal-8
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

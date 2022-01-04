@@ -1,0 +1,73 @@
+uuid:
+  -
+    value: 799752ee-e751-45da-a177-2c405adfbbd4
+langcode:
+  -
+    value: ru
+bundle:
+  -
+    target_id: image
+    target_type: media_type
+    target_uuid: 33cdb64d-7082-4c2f-b9f7-5cc87faa8d95
+revision_created:
+  -
+    value: '2021-09-03T15:59:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+name:
+  -
+    value: linux.png
+thumbnail:
+  -
+    alt: Linux
+    title: null
+    width: 1050
+    height: 603
+    target_type: file
+    target_uuid: cf613bde-11b6-49af-acc9-d4d22da236b4
+created:
+  -
+    value: '2021-09-03T15:59:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-09-03T15:59:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/main'
+    title: 'Главная страница | drupeople.ru'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: ru
+field_media_image:
+  -
+    alt: Linux
+    title: ''
+    width: 1050
+    height: 603
+    target_type: file
+    target_uuid: cf613bde-11b6-49af-acc9-d4d22da236b4
+_content_sync:
+  entity_type: media
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    file:
+      - file.file.cf613bde-11b6-49af-acc9-d4d22da236b4
