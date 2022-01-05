@@ -1,3 +1,6 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: ru
 uuid: c9a61441-d90a-44e3-96bd-bbf316ffcf64
 name: drupeople.ru
 mail: admin@drupeople.ru
@@ -8,7 +11,4 @@ page:
   front: /main
 admin_compact_mode: false
 weight_select_max: 100
-langcode: ru
 default_langcode: ru
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

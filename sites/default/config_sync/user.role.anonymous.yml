@@ -1,7 +1,14 @@
 uuid: c02632de-727e-4b2f-a186-235672810cb4
 langcode: ru
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - filter
+    - media
+    - search
+    - system
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
@@ -9,9 +16,7 @@ label: 'Анонимный пользователь'
 weight: 0
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
   - 'view media'
