@@ -18,7 +18,7 @@
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/codesnippet": "^1.7",
-        "drupal/content_sync": "^3.0@beta",
+        "drupal/content_sync": "3.0.x-dev",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
@@ -27,6 +27,7 @@
         "drupal/page_manager": "^4.0@beta",
         "drupal/panels": "^4.6",
         "drupal/pathauto": "^1.8",
+        "drupal/redirect": "^1.7",
         "drupal/xmlsitemap": "^1.2",
         "drush/drush": "^10.6"
     },
@@ -45,6 +46,10 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "./"
+            },
+            "file-mapping": {
+                "[web-root]/.htaccess": false,
+                "[web-root]/robots.txt": false
             }
         },
         "installer-paths": {

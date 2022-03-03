@@ -2,14 +2,14 @@
 *.sql
 core
 vendor
+modules/contrib
 sites/*/settings.local.php
-/sites/*/services*.yml
+sites/*/services*.yml
 sites/*/files
 sites/*/private
-modules/contrib
+sites/*/modules/README.txt
+sites/*/themes/README.txt
 sites/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
 /composer.lock
 /example.gitignore
 /.lando.yml
@@ -26,3 +26,7 @@ sites/all/themes/README.txt
 /index.php
 /update.php
 /web.config
+themes/*/node_modules
+themes/*/build
+themes/*/package-lock.json
+
