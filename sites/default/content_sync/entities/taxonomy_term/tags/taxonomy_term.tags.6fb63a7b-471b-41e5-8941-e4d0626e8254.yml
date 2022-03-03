@@ -1,6 +1,6 @@
 uuid:
   -
-    value: 06009d73-6546-4c59-8f7c-384588f0bc13
+    value: 6fb63a7b-471b-41e5-8941-e4d0626e8254
 langcode:
   -
     value: ru
@@ -9,7 +9,7 @@ vid:
     target_id: tags
 revision_created:
   -
-    value: '2021-06-25T17:32:11+00:00'
+    value: '2022-02-26T21:36:53+00:00'
     format: 'Y-m-d\TH:i:sP'
 revision_user: {  }
 revision_log_message: {  }
@@ -18,7 +18,7 @@ status:
     value: true
 name:
   -
-    value: Views
+    value: Composer
 description:
   -
     value: null
@@ -32,7 +32,7 @@ parent:
     target_id: 0
 changed:
   -
-    value: '2021-06-25T17:32:11+00:00'
+    value: '2022-02-26T21:36:53+00:00'
     format: 'Y-m-d\TH:i:sP'
 default_langcode:
   -
@@ -42,7 +42,7 @@ revision_translation_affected:
     value: true
 metatag:
   value:
-    canonical_url: 'http://default/tag/views'
-    title: 'Views | drupeople.ru'
+    canonical_url: 'http://default/tag/composer'
+    title: 'Composer | drupeople.ru'
 _content_sync:
   entity_type: taxonomy_term

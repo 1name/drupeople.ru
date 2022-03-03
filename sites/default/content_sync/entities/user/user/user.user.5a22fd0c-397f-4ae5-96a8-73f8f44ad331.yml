@@ -29,11 +29,6 @@ default_langcode:
     value: true
 metatag:
   value: {  }
-path:
-  -
-    alias: null
-    pid: null
-    langcode: en
 user_picture: {  }
 _content_sync:
   entity_type: user

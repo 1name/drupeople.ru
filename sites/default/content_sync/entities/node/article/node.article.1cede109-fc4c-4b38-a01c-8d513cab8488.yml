@@ -7,8 +7,6 @@ langcode:
 type:
   -
     target_id: article
-    target_type: node_type
-    target_uuid: c0d50300-0334-450e-887b-5c0c9c8db285
 revision_timestamp:
   -
     value: '2021-05-26T19:28:51+00:00'
@@ -53,9 +51,6 @@ metatag:
     canonical_url: 'http://default/article/kak-poluchit-url-adres-stranicy-drupal-8'
     title: 'Как получить url адрес страницы Drupal 8 | drupeople.ru'
     description: 'получить адрес текущей страницы Drupal 8'
-path:
-  -
-    alias: /article/kak-poluchit-url-adres-stranicy-drupal-8
 body:
   -
     value: "<p>Получить системный URL текущей страницы можно используя сервис <em>path.current</em>:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$current_path = \\Drupal::service('path.current')-&gt;getPath();</code></pre>\r\n\r\n<p>Если вам нужно получить URI текущей страницы:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$current_uri = \\Drupal::request()-&gt;getRequestUri();</code></pre>\r\n\r\n<p>Чтобы получить ЧПУ путь страницы, нужно сначала узнать системный путь, а затем получить его alias. За alias отвечает сервис&nbsp;<em>path.alias_manager</em>:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$current_path = \\Drupal::service('path.current')-&gt;getPath();\r\n$result = \\Drupal::service('path.alias_manager')-&gt;getAliasByPath($current_path);</code></pre>\r\n\r\n<p>Также получить ЧПУ текущей страницы можно используя класс <em>Drupal\\Core\\Url</em>:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$url = \\Drupal\\Core\\Url::fromRoute('&lt;current&gt;');</code></pre>\r\n\r\n<p>или если нужно получить системный путь (используя предыдущий метод):</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$path = $url-&gt;getInternalPath();</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n"

@@ -7,8 +7,6 @@ langcode:
 bundle:
   -
     target_id: image
-    target_type: media_type
-    target_uuid: 33cdb64d-7082-4c2f-b9f7-5cc87faa8d95
 revision_created:
   -
     value: '2021-09-03T16:00:16+00:00'
@@ -27,12 +25,14 @@ name:
     value: d8-logo.jpg
 thumbnail:
   -
+    target_id: 7
     alt: 'Drupal 8'
     title: null
     width: 1024
     height: 500
     target_type: file
     target_uuid: b8d54e8a-8b98-41a9-b66b-4f536f1c4868
+    url: 'http://default/sites/default/files/2021-09/d8-logo.jpg'
 created:
   -
     value: '2021-09-03T16:00:09+00:00'
@@ -51,23 +51,18 @@ metatag:
   value:
     canonical_url: 'http://default/main'
     title: 'Главная страница | drupeople.ru'
-path:
-  -
-    alias: null
-    pid: null
-    langcode: ru
 field_media_image:
   -
+    target_id: 7
     alt: 'Drupal 8'
     title: ''
     width: 1024
     height: 500
     target_type: file
     target_uuid: b8d54e8a-8b98-41a9-b66b-4f536f1c4868
+    url: 'http://default/sites/default/files/2021-09/d8-logo.jpg'
 _content_sync:
   entity_type: media
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
-    file:
-      - file.file.b8d54e8a-8b98-41a9-b66b-4f536f1c4868

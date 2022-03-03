@@ -23,11 +23,6 @@ metatag:
     canonical_url: 'http://default/user/1'
     title: 'admin | drupeople.ru'
     description: drupeople.ru
-path:
-  -
-    alias: null
-    pid: null
-    langcode: en
 user_picture: {  }
 _content_sync:
   entity_type: user

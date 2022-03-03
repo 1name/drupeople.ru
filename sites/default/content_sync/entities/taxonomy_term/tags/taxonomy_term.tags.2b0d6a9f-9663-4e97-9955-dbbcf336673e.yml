@@ -7,8 +7,6 @@ langcode:
 vid:
   -
     target_id: tags
-    target_type: taxonomy_vocabulary
-    target_uuid: 0c78bd52-8fb9-42f8-bfd9-e7a3bac6b429
 revision_created:
   -
     value: '2021-07-15T14:26:20+00:00'
@@ -46,9 +44,5 @@ metatag:
   value:
     canonical_url: 'http://default/tag/docker'
     title: 'Docker | drupeople.ru'
-path:
-  -
-    alias: /tag/docker
 _content_sync:
   entity_type: taxonomy_term
-  entity_dependencies: {  }

@@ -7,8 +7,6 @@ langcode:
 type:
   -
     target_id: article
-    target_type: node_type
-    target_uuid: c0d50300-0334-450e-887b-5c0c9c8db285
 revision_timestamp:
   -
     value: '2021-05-30T11:08:01+00:00'
@@ -53,9 +51,6 @@ metatag:
     canonical_url: 'http://default/article/kak-ustanovit-ili-izmenit-parol-polzovatelya-linux'
     title: 'Как установить или изменить пароль пользователя Linux | drupeople.ru'
     description: 'изменить пароль пользователя linux'
-path:
-  -
-    alias: /article/kak-ustanovit-ili-izmenit-parol-polzovatelya-linux
 body:
   -
     value: "<p>В Linux используется команда&nbsp;passwd для изменения пароля пользователя. Обычный пользователь может изменить пароль только для себя, root пользователь может изменить пароль любого пользователя.&nbsp;</p>\r\n\r\n<h2>Как изменить пароль текущей учетной записи</h2>\r\n\r\n<p>В консоле наберите команду</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">passwd</code></pre>\r\n\r\n<p>Если пароль был задан ранее, то вначале придется ввести свой старый пароль, затем 2 раза ввести новый:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">Changing password for USERNAME\r\n(current) UNIX password:\r\nEnter new UNIX password:\r\nRetype new UNIX password:\r\npasswd: password updated successfully</code></pre>\r\n\r\n<p>Root пользователь может менять пароли сразу (не вводя предыдущий пароль).</p>\r\n\r\n<h2>Как изменить пароль пользователю</h2>\r\n\r\n<p>Для этого нужно быть авторизованным как root пользователь и ввести команду passwd, а затем через пробел указать имя пользователя:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">passwd myuser</code></pre>\r\n\r\n<p>или</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">sudo passwd myuser</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n"

@@ -7,8 +7,6 @@ langcode:
 bundle:
   -
     target_id: image
-    target_type: media_type
-    target_uuid: 33cdb64d-7082-4c2f-b9f7-5cc87faa8d95
 revision_created:
   -
     value: '2021-07-20T13:32:53+00:00'
@@ -27,12 +25,14 @@ name:
     value: images.png
 thumbnail:
   -
+    target_id: 5
     alt: Docker
     title: null
     width: 294
     height: 171
     target_type: file
     target_uuid: c73e2d27-865c-43f8-9b1b-7490893f5811
+    url: 'http://default/sites/default/files/2021-07/images.png'
 created:
   -
     value: '2021-07-20T13:32:42+00:00'
@@ -51,23 +51,18 @@ metatag:
   value:
     canonical_url: 'http://default/main'
     title: 'Главная страница | drupeople.ru'
-path:
-  -
-    alias: null
-    pid: null
-    langcode: ru
 field_media_image:
   -
+    target_id: 5
     alt: Docker
     title: ''
     width: 294
     height: 171
     target_type: file
     target_uuid: c73e2d27-865c-43f8-9b1b-7490893f5811
+    url: 'http://default/sites/default/files/2021-07/images.png'
 _content_sync:
   entity_type: media
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
-    file:
-      - file.file.c73e2d27-865c-43f8-9b1b-7490893f5811

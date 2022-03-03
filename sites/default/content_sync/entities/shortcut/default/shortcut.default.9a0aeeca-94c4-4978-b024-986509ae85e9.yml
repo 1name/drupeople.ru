@@ -7,8 +7,6 @@ langcode:
 shortcut_set:
   -
     target_id: default
-    target_type: shortcut_set
-    target_uuid: 7f9d8b00-926e-4067-b24b-7e2654d31641
 title:
   -
     value: 'All content'
@@ -29,4 +27,3 @@ metatag:
     title: 'Главная страница | drupeople.ru'
 _content_sync:
   entity_type: shortcut
-  entity_dependencies: {  }

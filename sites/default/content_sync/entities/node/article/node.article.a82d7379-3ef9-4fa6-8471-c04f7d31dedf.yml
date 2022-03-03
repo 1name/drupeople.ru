@@ -7,8 +7,6 @@ langcode:
 type:
   -
     target_id: article
-    target_type: node_type
-    target_uuid: c0d50300-0334-450e-887b-5c0c9c8db285
 revision_timestamp:
   -
     value: '2021-07-15T14:49:09+00:00'
@@ -34,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2021-09-04T10:18:37+00:00'
+    value: '2022-02-26T22:13:10+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -53,9 +51,6 @@ metatag:
     canonical_url: 'http://default/article/kak-izmenit-raspolozhenie-virtualnogo-diska-docker-windows'
     title: 'Как изменить расположение виртуального диска Docker Windows | drupeople.ru'
     description: 'перенести диск docker windows'
-path:
-  -
-    alias: /article/kak-izmenit-raspolozhenie-virtualnogo-diska-docker-windows
 body:
   -
     value: "<p>Виртуальный диск Docker Desktop расположен на диске C и часто занимает много место. Поэтому ниже инструкция как можно перенести виртуальное файловое хранилище на другой локальный диск.&nbsp;</p>\r\n\r\n<p>Для начала нужно выключить Docker Desktop. Для этого нужно кликнуть правой кнопкой мыши по иконке Docker и выбрать пункт \"<em>Quit Docker Desktop</em>\".</p>\r\n\r\n<p>Затем в консоле введите команду:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">wsl --list -v</code></pre>\r\n\r\n<p>В списке вы увидите&nbsp; список Linux дистрибутивов на вашем компьютере.&nbsp;</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">  NAME                   STATE           VERSION\r\n* Ubuntu                 Running         2\r\n  docker-desktop         Stopped         2\r\n  docker-desktop-data    Stopped         2</code></pre>\r\n\r\n<p>Docker Desktop должен быть со статусом Stopped. Если нет, выполните команду для остановки WSL:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">wsl --shutdown</code></pre>\r\n\r\n<p>Следующим шагом нужно экспортировать данные Docker в файл. Это делается командой:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">wsl --export docker-desktop-data \"D:\\Docker\\wsl\\data\\docker-desktop-data.tar\"</code></pre>\r\n\r\n<p>В кавычках нужно указать путь, где будет сохранен бекап.</p>\r\n\r\n<p>Далее нужно убрать&nbsp;docker-desktop-data из WSL:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">wsl --unregister docker-desktop-data</code></pre>\r\n\r\n<p>После выполнения этой команды файловое хранилище&nbsp;ext4.vhdx будет удалено с диска C (именно для этого мы вначале сделали его бекап).</p>\r\n\r\n<p>Далее нужно добавить удаленную секцию в WSL и указать путь, где будет расположено файловое хранилище:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">wsl --import docker-desktop-data \"D:\\Docker\\wsl\\data\" \"D:\\Docker\\wsl\\data\\docker-desktop-data.tar\" --version 2</code></pre>\r\n\r\n<p>Первый аргумент в кавычках - это директория, где будет храниться диск Docker, а второй аргумент в кавычках - путь к бекап файлу, который мы сделали ранее.</p>\r\n\r\n<p>После запуска Docker Desktop не забудьте удалить бекап файлового хранилища.</p>\r\n"

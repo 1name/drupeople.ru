@@ -1,0 +1,20 @@
+uuid:
+  -
+    value: ea771e34-68a3-4dd4-8ca1-43e2330575ec
+langcode:
+  -
+    value: ru
+path:
+  target_type: node
+  target_uuid: e9ce18e6-e0e4-4012-9939-c86cea390150
+alias:
+  -
+    value: /article/kak-primenit-patch-s-pomoschyu-composer
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias
+  entity_dependencies:
+    node:
+      - node.article.e9ce18e6-e0e4-4012-9939-c86cea390150

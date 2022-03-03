@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 23c6968b-9b86-45ff-84c3-0729565428f6
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: composer.png
+uri:
+  -
+    value: 'public://2022-02/composer.png'
+    url: /sites/default/files/2022-02/composer.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 397544
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-02-26T22:12:22+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-02-26T22:12:32+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
