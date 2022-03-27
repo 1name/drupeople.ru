@@ -2,14 +2,12 @@
 *.sql
 core
 vendor
+libraries
 modules/contrib
-sites/*/settings.local.php
-sites/*/services*.yml
 sites/*/files
 sites/*/private
 sites/*/modules/README.txt
 sites/*/themes/README.txt
-sites/README.txt
 /composer.lock
 /example.gitignore
 /.lando.yml
