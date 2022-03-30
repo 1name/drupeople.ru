@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/antibot": "^2.0",
         "drupal/codesnippet": "^1.7",
         "drupal/content_sync": "3.0.x-dev",
         "drupal/core-composer-scaffold": "^9.3",
