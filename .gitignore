@@ -4,7 +4,6 @@ core
 vendor
 libraries
 modules/contrib
-sites/*/files
 sites/*/private
 sites/*/modules/README.txt
 sites/*/themes/README.txt
