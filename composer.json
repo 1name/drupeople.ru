@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/antibot": "^2.0",
         "drupal/codesnippet": "^1.7",
+        "drupal/console": "~1.0",
         "drupal/content_sync": "3.0.x-dev",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
