@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://drupeople.ru/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://drupeople.ru/article/kak-poluchit-url-adres-stranicy-drupal-8</loc><lastmod>2021-09-04T10:18Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-ustanovit-ili-izmenit-parol-polzovatelya-linux</loc><lastmod>2021-09-04T10:16Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-sdelat-eksport-ili-import-predstavleniya-views-v-drupal-8</loc><lastmod>2021-09-03T16:00Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-izmenit-raspolozhenie-virtualnogo-diska-docker-windows</loc><lastmod>2022-02-26T22:13Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-ispravit-oshibku-unknown-collation-utf8mb40900aici</loc><lastmod>2021-09-04T10:17Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-primenit-patch-s-pomoschyu-composer</loc><lastmod>2022-02-27T08:11Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://drupeople.ru/article/kak-udalit-polzovatelya-linux</loc><lastmod>2022-02-28T20:14Z</lastmod><changefreq>always</changefreq></url>
+<url><loc>https://drupeople.ru/tag/drupal-8</loc><lastmod>2021-05-26T19:23Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/url</loc><lastmod>2021-05-26T19:34Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/linux</loc><lastmod>2021-05-26T19:42Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/views</loc><lastmod>2021-06-25T17:32Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/docker</loc><lastmod>2021-07-15T14:26Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/mysql</loc><lastmod>2021-09-03T18:21Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>https://drupeople.ru/tag/composer</loc><lastmod>2022-02-26T21:36Z</lastmod><changefreq>daily</changefreq></url>
+</urlset>
