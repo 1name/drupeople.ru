@@ -1,0 +1,25 @@
+uuid: 2e6db419-9119-497d-83c5-f616af8801c1
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:35398383-11c4-4c00-b6ac-05c66410a928'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: logo
+theme: mytheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:35398383-11c4-4c00-b6ac-05c66410a928'
+settings:
+  id: 'block_content:35398383-11c4-4c00-b6ac-05c66410a928'
+  label: Логотип
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
