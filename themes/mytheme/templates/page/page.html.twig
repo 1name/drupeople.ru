@@ -51,22 +51,22 @@
     {{ page.header }}
   </header>
 
-  {{ page.breadcrumb }}
-  {{ page.highlighted }}
-  {{ page.help }}
+    {# {{ page.breadcrumb }} #}
+    {{ page.highlighted }}
+    {{ page.help }}
 
-  <main role="main" class="main">
-    <div class="container main__container">
-      <div class="row">
-        {{ page.content }}
+    <main role="main" class="main">
+      <div class="container main__container">
+        <div class="row">
+          {{ page.content }}
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
+    {% if page.footer %}
+      <footer role="contentinfo">
+        {{ page.footer }}
+      </footer>
+    {% endif %}
 
-</div>{# /.layout-container #}
+  </div>{# /.layout-container #}

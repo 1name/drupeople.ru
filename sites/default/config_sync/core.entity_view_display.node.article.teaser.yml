@@ -10,8 +10,10 @@ dependencies:
     - field.field.node.article.field_source
     - field.field.node.article.field_tags
     - field.field.node.article.field_teaser
+    - image.style.article_preview
     - node.type.article
   module:
+    - media
     - text
     - user
 id: node.article.teaser
@@ -19,23 +21,30 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
+  field_image:
+    type: media_thumbnail
     label: hidden
     settings:
-      trim_length: 600
+      image_link: content
+      image_style: article_preview
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_teaser:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 3
     region: content
 hidden:
-  field_image: true
+  body: true
   field_metatags: true
   field_source: true
   field_tags: true
-  field_teaser: true
   langcode: true
