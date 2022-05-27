@@ -1,0 +1,75 @@
+.header
+  position: relative
+  padding: 1rem 0
+  background-image: url('../img/background.jpg')
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+
+  &__top
+    display: flex
+    align-items: center
+
+  &__logo
+    @media screen and (max-width: 900px)
+      margin: 0 auto
+    .logo
+      width: 15rem
+      height: auto
+
+
+  &__menu
+    margin-left: auto
+    @media screen and (max-width: 900px)
+      display: none
+    .list
+      display: flex
+      .item
+        padding: 0 1rem
+        list-style: none
+        .link
+          color: $white
+          text-decoration: none
+          font-size: 1.2rem
+          font-family: 'Montserrat', sans-serif
+
+  &__search
+    width: 70%
+    margin: 0 auto
+    padding-top: 15rem
+    padding-bottom: 15rem
+    .search-block-form
+      .form
+        display: flex
+        .form-item-keys
+          width: 80%
+          .form-search
+            display: block
+            width: 100%
+            padding: 12px
+            color: $grey
+            font-size: 1rem
+            line-height: 1.5
+            border: 1px solid $grey_light
+            border-right: none
+            background-color: $white
+            background-clip: padding-box
+            border-top-left-radius: 0.25rem
+            border-bottom-left-radius: 0.25rem
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+            &:focus
+              outline: none
+        .form-actions
+          width: 20%
+          .form-submit
+            display: block
+            padding: 12px
+            background: $white
+            border: 1px solid $grey_light
+            border-left: none
+            border-top-right-radius: 0.25rem
+            border-bottom-right-radius: 0.25rem
+            color: $grey
+            font-size: 1rem
+            line-height: 1.5
+            cursor: pointer

@@ -28,6 +28,7 @@
 <!DOCTYPE html>
 <html{{ html_attributes }}>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66129940-1"></script>
     <script>
@@ -38,7 +39,10 @@
         gtag('config', 'UA-66129940-1');
     </script>
 
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+    </style>
     <head-placeholder token="{{ placeholder_token }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token }}">

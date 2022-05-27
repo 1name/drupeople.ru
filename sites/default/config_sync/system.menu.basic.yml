@@ -1,0 +1,8 @@
+uuid: 38d49207-f9f3-420c-914d-4a99ffc66c3c
+langcode: ru
+status: true
+dependencies: {  }
+id: basic
+label: 'Основное меню'
+description: ''
+locked: false

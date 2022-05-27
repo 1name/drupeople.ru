@@ -1,0 +1,25 @@
+uuid: 2ef69f11-8ebc-412f-9058-7d6f714c0131
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.basic
+  module:
+    - system
+  theme:
+    - mytheme
+id: menu
+theme: mytheme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:basic'
+settings:
+  id: 'system_menu_block:basic'
+  label: 'Основное меню'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
