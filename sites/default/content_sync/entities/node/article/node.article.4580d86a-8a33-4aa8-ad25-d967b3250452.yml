@@ -32,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2021-09-03T16:00:24+00:00'
+    value: '2022-06-10T08:21:42+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -60,7 +60,10 @@ body:
 
       <p>Затем перейдите в раздел <em>Конфигурация</em> - <em>Разработка</em> - <em>Синхронизация</em> конфигурации или же откройте страницу <em>/admin/config/development/configuration</em>.</p>
 
-      <p>На это странице вы увидите несколько вкладок:<br /><em>Синхронизация</em> - для синхронизации клона сайта (полной копии)<br /><em>Импортировать</em> - для создания конфигурации для переноса на другой сайт<br /><em>Экспортировать</em> - загрузить конфигурацию с другого сайта.</p>
+      <p>На это странице вы увидите несколько вкладок:<br />
+      <em>Синхронизация</em> - для синхронизации клона сайта (полной копии)<br />
+      <em>Импортировать</em> - для создания конфигурации для переноса на другой сайт<br />
+      <em>Экспортировать</em> - загрузить конфигурацию с другого сайта.</p>
 
       <p>На страницах импорта и экспорта есть дополнительные вкладки - одна для импорта всего сайта, а вторая для точечной загрузки отдельной конфигурации. </p>
 
@@ -71,6 +74,10 @@ body:
       <p>После того, как вы нажмете на кнопку Импортировать, представление будет добавлено на сайт.</p>
     summary: ''
     summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: 19873cc2-27ec-445c-9e8c-cbbd18ef8d91
 field_image:
   -
     target_type: media
@@ -82,10 +89,6 @@ field_metatags:
 field_source:
   -
     value: 'https://www.gyanblog.com/drupal/62-drupal-8-how-export-and-import-view/'
-field_tags:
-  -
-    target_type: taxonomy_term
-    target_uuid: 06009d73-6546-4c59-8f7c-384588f0bc13
 field_teaser:
   -
     value: "<p>В статье подробная инструкция как перенести представление Views с одного сайта на другой.</p>\r\n"
@@ -97,7 +100,7 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.19873cc2-27ec-445c-9e8c-cbbd18ef8d91
     media:
       - media.image.2936b150-32fd-4afb-940d-b169bd384925
-    taxonomy_term:
-      - taxonomy_term.tags.06009d73-6546-4c59-8f7c-384588f0bc13

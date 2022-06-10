@@ -32,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2022-02-27T08:11:33+00:00'
+    value: '2022-06-10T08:22:10+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -104,6 +104,10 @@ body:
       <p> </p>
     summary: ''
     summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: a4c4077d-cde4-4a36-ab84-cb39c32cae53
 field_image:
   -
     target_type: media
@@ -115,13 +119,6 @@ field_metatags:
 field_source:
   -
     value: 'https://rias.be/blog/using-composer-patches'
-field_tags:
-  -
-    target_type: taxonomy_term
-    target_uuid: 3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4
-  -
-    target_type: taxonomy_term
-    target_uuid: 6fb63a7b-471b-41e5-8941-e4d0626e8254
 field_teaser:
   -
     value: "<p>Иногда в процессе разработки сталкиваешься с проблемой когда нужно исправить ошибку в библиотеке. В этой статье мы разберем как это можно сделать с помощь Composer.</p>\r\n"
@@ -133,8 +130,7 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.a4c4077d-cde4-4a36-ab84-cb39c32cae53
     media:
       - media.image.bce7fe2c-2693-492c-9dcb-e57384a53abe
-    taxonomy_term:
-      - taxonomy_term.tags.3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4
-      - taxonomy_term.tags.6fb63a7b-471b-41e5-8941-e4d0626e8254

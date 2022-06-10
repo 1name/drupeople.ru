@@ -1,0 +1,164 @@
+uuid:
+  -
+    value: 74b3e788-9dee-42f4-86fd-1f80975ed51e
+langcode:
+  -
+    value: ru
+type:
+  -
+    target_id: article
+revision_timestamp:
+  -
+    value: '2022-05-30T06:58:42+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+title:
+  -
+    value: 'Как создать товар Drupal Commerce программно'
+created:
+  -
+    value: '2022-05-30T06:58:06+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:22:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/article/kak-sozdat-tovar-drupal-commerce-programmno'
+    title: 'Как создать товар Drupal Commerce программно | drupeople.ru'
+    description: 'как создать товар drupal commerce программно'
+body:
+  -
+    value: "<p>Чтобы создать товар Drupal Commerce программно нужно сначала создать Product Variation (вариант) товара, а уже затем полученный объект варианта привязать к товару. Делается эта процедура в 2 этапа.</p>\r\n\r\n<p>Как создать вариант товара:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$variation = \\Drupal\\commerce_product\\Entity\\ProductVariation::create([\r\n  'type' =&gt; 'default', // тип product variation, по умолчанию default\r\n  'sku' =&gt; 'test-product-01', // артикул вариант, должен быть уникальным\r\n  'status' =&gt; TRUE, // статус варианта\r\n  'price' =&gt; new \\Drupal\\commerce_price\\Price('24.99', 'USD'), // стоимость \r\n]);\r\n$variation-&gt;save(); // сохраняем</code></pre>\r\n\r\n<p>Если нужно создать вариант с атрибутами</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$color = \\Drupal\\commerce_product\\Entity\\ProductAttributeValue::create([\r\n  'attribute' =&gt; 'color',\r\n  'name' =&gt; 'Red',\r\n]);\r\n$color-&gt;save();\r\n\r\n$size = \\Drupal\\commerce_product\\Entity\\ProductAttributeValue::create([\r\n  'attribute' =&gt; 'size',\r\n  'name' =&gt; 'Medium',\r\n]);\r\n$size-&gt;save();\r\n\r\n$variation = \\Drupal\\commerce_product\\Entity\\ProductVariation::create([ \r\n  'type' =&gt; 'default',\r\n  'sku' =&gt; '001',\r\n  'price' =&gt; new \\Drupal\\commerce_price\\Price('10.00', 'USD'),\r\n  'attribute_color' =&gt; $color,\r\n  'attribute_size' =&gt; $size,\r\n])-&gt;save();</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Как создать товар:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$product = \\Drupal\\commerce_product\\Entity\\Product::create([\r\n  'uid' =&gt; 1, // user id автора\r\n  'type' =&gt; 'default', // тип товара, по умолчанию default\r\n  'title' =&gt; t('Your Product Name'), // заголовок товара\r\n  'stores' =&gt; [$store], // машинное имя магазина commerce, массив\r\n  'variations' =&gt; [$variation], // массив объектов вариантов товара\r\n]);\r\n$product-&gt;save(); // сохраняем</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Также можно добавить вариант к товару используя специальный метод:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$product-&gt;addVariation($variation);\r\n$product-&gt;save();</code></pre>\r\n\r\n<p>Когда вы добавите вариант к товару, то автоматически будет создана обратная связь товара к варианту:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$variation-&gt;getProduct(); // вернет товары, к которым привязан этот вариант</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Как загрузить товар:</p>\r\n\r\n<pre>\r\n<code class=\"language-php\">$red = \\Drupal\\commerce_product\\Entity\\ProductAttributeValue::load(1); // атрибут\r\n$variation = \\Drupal\\commerce_product\\Entity\\ProductVariation::load(1); // вариант товара\r\n$product = \\Drupal\\commerce_product\\Entity\\Product::load(1); // товар\r\n</code></pre>\r\n\r\n<p>&nbsp;</p>\r\n"
+    format: editor
+    processed: |
+      <p>Чтобы создать товар Drupal Commerce программно нужно сначала создать Product Variation (вариант) товара, а уже затем полученный объект варианта привязать к товару. Делается эта процедура в 2 этапа.</p>
+
+      <p>Как создать вариант товара:</p>
+
+      <pre>
+      <code class="language-php">$variation = \Drupal\commerce_product\Entity\ProductVariation::create([
+        'type' =&gt; 'default', // тип product variation, по умолчанию default
+        'sku' =&gt; 'test-product-01', // артикул вариант, должен быть уникальным
+        'status' =&gt; TRUE, // статус варианта
+        'price' =&gt; new \Drupal\commerce_price\Price('24.99', 'USD'), // стоимость 
+      ]);
+      $variation-&gt;save(); // сохраняем</code></pre>
+
+      <p>Если нужно создать вариант с атрибутами</p>
+
+      <pre>
+      <code class="language-php">$color = \Drupal\commerce_product\Entity\ProductAttributeValue::create([
+        'attribute' =&gt; 'color',
+        'name' =&gt; 'Red',
+      ]);
+      $color-&gt;save();
+
+      $size = \Drupal\commerce_product\Entity\ProductAttributeValue::create([
+        'attribute' =&gt; 'size',
+        'name' =&gt; 'Medium',
+      ]);
+      $size-&gt;save();
+
+      $variation = \Drupal\commerce_product\Entity\ProductVariation::create([ 
+        'type' =&gt; 'default',
+        'sku' =&gt; '001',
+        'price' =&gt; new \Drupal\commerce_price\Price('10.00', 'USD'),
+        'attribute_color' =&gt; $color,
+        'attribute_size' =&gt; $size,
+      ])-&gt;save();</code></pre>
+
+      <p> </p>
+
+      <p>Как создать товар:</p>
+
+      <pre>
+      <code class="language-php">$product = \Drupal\commerce_product\Entity\Product::create([
+        'uid' =&gt; 1, // user id автора
+        'type' =&gt; 'default', // тип товара, по умолчанию default
+        'title' =&gt; t('Your Product Name'), // заголовок товара
+        'stores' =&gt; [$store], // машинное имя магазина commerce, массив
+        'variations' =&gt; [$variation], // массив объектов вариантов товара
+      ]);
+      $product-&gt;save(); // сохраняем</code></pre>
+
+      <p> </p>
+
+      <p>Также можно добавить вариант к товару используя специальный метод:</p>
+
+      <pre>
+      <code class="language-php">$product-&gt;addVariation($variation);
+      $product-&gt;save();</code></pre>
+
+      <p>Когда вы добавите вариант к товару, то автоматически будет создана обратная связь товара к варианту:</p>
+
+      <pre>
+      <code class="language-php">$variation-&gt;getProduct(); // вернет товары, к которым привязан этот вариант</code></pre>
+
+      <p> </p>
+
+      <p>Как загрузить товар:</p>
+
+      <pre>
+      <code class="language-php">$red = \Drupal\commerce_product\Entity\ProductAttributeValue::load(1); // атрибут
+      $variation = \Drupal\commerce_product\Entity\ProductVariation::load(1); // вариант товара
+      $product = \Drupal\commerce_product\Entity\Product::load(1); // товар
+      </code></pre>
+
+      <p> </p>
+    summary: ''
+    summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: e4e59bc8-48c1-4d5a-9f8e-7be26e5e4431
+field_image:
+  -
+    target_type: media
+    target_uuid: 2936b150-32fd-4afb-940d-b169bd384925
+field_metatags:
+  -
+    value:
+      description: 'как создать товар drupal commerce программно'
+field_source:
+  -
+    value: "https://docs.drupalcommerce.org/commerce2/developer-guide/products/product-management/code-recipes#creating-values-for-an-attribute\r\nhttps://drupal-qa.com/how-to-create-products-programmatically-in-drupal-8-commerce"
+field_teaser:
+  -
+    value: "<p>В этой статье я расскажу как программно создавать товары и варианты к ним.</p>\r\n"
+    format: editor
+    processed: |
+      <p>В этой статье я расскажу как программно создавать товары и варианты к ним.</p>
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.e4e59bc8-48c1-4d5a-9f8e-7be26e5e4431
+    media:
+      - media.image.2936b150-32fd-4afb-940d-b169bd384925

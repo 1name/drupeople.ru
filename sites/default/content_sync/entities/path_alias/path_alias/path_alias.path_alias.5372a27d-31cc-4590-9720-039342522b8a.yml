@@ -1,0 +1,20 @@
+uuid:
+  -
+    value: 5372a27d-31cc-4590-9720-039342522b8a
+langcode:
+  -
+    value: ru
+path:
+  target_type: node
+  target_uuid: b5170ff3-ece1-4183-8e12-137118c67608
+alias:
+  -
+    value: /article/kak-otmenit-posledniy-kommit-v-git
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias
+  entity_dependencies:
+    node:
+      - node.article.b5170ff3-ece1-4183-8e12-137118c67608
