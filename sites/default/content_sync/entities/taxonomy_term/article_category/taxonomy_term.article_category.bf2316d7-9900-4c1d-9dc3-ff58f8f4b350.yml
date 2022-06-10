@@ -1,0 +1,58 @@
+uuid:
+  -
+    value: bf2316d7-9900-4c1d-9dc3-ff58f8f4b350
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: article_category
+revision_created:
+  -
+    value: '2022-06-10T08:17:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: Linux
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2022-06-10T08:17:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/category/linux'
+    title: 'Linux | drupeople.ru'
+field_image:
+  -
+    target_id: 17
+    alt: Linux
+    title: ''
+    width: 1050
+    height: 603
+    target_type: file
+    target_uuid: b4909491-afc8-4aa9-b9be-4a939640a0a7
+    url: 'http://default/sites/default/files/2022-06/linux.png'
+_content_sync:
+  entity_type: taxonomy_term

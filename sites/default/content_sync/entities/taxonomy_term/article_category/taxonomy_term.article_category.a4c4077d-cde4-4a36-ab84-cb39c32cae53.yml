@@ -1,0 +1,58 @@
+uuid:
+  -
+    value: a4c4077d-cde4-4a36-ab84-cb39c32cae53
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: article_category
+revision_created:
+  -
+    value: '2022-06-10T08:09:43+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: Composer
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2022-06-10T08:18:38+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/category/composer'
+    title: 'Composer | drupeople.ru'
+field_image:
+  -
+    target_id: 12
+    alt: Composer
+    title: ''
+    width: 2736
+    height: 1368
+    target_type: file
+    target_uuid: 5b2d0430-1456-4b86-acf6-56ab130b0cd2
+    url: 'http://default/sites/default/files/2022-06/composer.png'
+_content_sync:
+  entity_type: taxonomy_term

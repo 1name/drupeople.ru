@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 33a4314e-3a7a-4089-a1fe-5e71ade2105e
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: docker.png
+uri:
+  -
+    value: 'public://2022-06/docker.png'
+    url: /sites/default/files/2022-06/docker.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 2235
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-06-10T08:15:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:16:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

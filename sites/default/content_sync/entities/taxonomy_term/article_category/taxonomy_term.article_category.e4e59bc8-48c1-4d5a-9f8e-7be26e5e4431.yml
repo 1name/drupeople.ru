@@ -1,0 +1,58 @@
+uuid:
+  -
+    value: e4e59bc8-48c1-4d5a-9f8e-7be26e5e4431
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: article_category
+revision_created:
+  -
+    value: '2022-06-10T08:17:03+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: 'Drupal Commerce'
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2022-06-10T08:17:10+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/category/drupal-commerce'
+    title: 'Drupal Commerce | drupeople.ru'
+field_image:
+  -
+    target_id: 15
+    alt: 'Drupal Commerce'
+    title: ''
+    width: 400
+    height: 400
+    target_type: file
+    target_uuid: b0d6c2c7-16a9-4ffa-bfd1-83c5d6e45041
+    url: 'http://default/sites/default/files/2022-06/drupal-commerce.png'
+_content_sync:
+  entity_type: taxonomy_term

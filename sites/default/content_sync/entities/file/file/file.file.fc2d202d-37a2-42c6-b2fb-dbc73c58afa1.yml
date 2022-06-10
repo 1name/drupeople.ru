@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: fc2d202d-37a2-42c6-b2fb-dbc73c58afa1
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: mysql.png
+uri:
+  -
+    value: 'public://2022-06/mysql.png'
+    url: /sites/default/files/2022-06/mysql.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 22844
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-06-10T08:17:50+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:17:56+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

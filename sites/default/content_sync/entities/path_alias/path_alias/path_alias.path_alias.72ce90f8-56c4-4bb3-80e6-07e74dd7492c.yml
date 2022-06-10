@@ -1,0 +1,20 @@
+uuid:
+  -
+    value: 72ce90f8-56c4-4bb3-80e6-07e74dd7492c
+langcode:
+  -
+    value: ru
+path:
+  target_type: taxonomy_term
+  target_uuid: 0bb08508-657d-4ddc-9980-bf2884fadfac
+alias:
+  -
+    value: /category/mysql
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.article_category.0bb08508-657d-4ddc-9980-bf2884fadfac
