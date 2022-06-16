@@ -6,7 +6,6 @@ dependencies:
     - field.field.taxonomy_term.article_category.field_image
     - taxonomy.vocabulary.article_category
   module:
-    - image
     - text
 id: taxonomy_term.article_category.default
 targetEntityType: taxonomy_term
@@ -20,14 +19,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_image:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
+  field_image: true
   langcode: true

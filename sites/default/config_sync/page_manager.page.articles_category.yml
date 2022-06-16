@@ -1,0 +1,12 @@
+uuid: 6da76be8-3235-43db-92f5-cc01552e1b3a
+langcode: ru
+status: true
+dependencies: {  }
+id: articles_category
+label: 'Категории статей'
+description: ''
+use_admin_theme: false
+path: /category
+access_logic: and
+access_conditions: {  }
+parameters: {  }
