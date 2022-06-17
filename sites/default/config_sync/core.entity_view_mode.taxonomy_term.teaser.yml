@@ -1,0 +1,10 @@
+uuid: 8c89746c-0064-4454-9156-a0975f68924d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.teaser
+label: Анонс
+targetEntityType: taxonomy_term
+cache: true

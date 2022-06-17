@@ -1,0 +1,12 @@
+uuid: 3504c887-c608-42f6-9c87-3cbb7459a5e6
+langcode: ru
+status: true
+dependencies: {  }
+id: taxonomy_term
+label: 'Термин таксономии'
+description: ''
+use_admin_theme: false
+path: '/taxonomy/term/{taxonomy_term}'
+access_logic: and
+access_conditions: {  }
+parameters: {  }
