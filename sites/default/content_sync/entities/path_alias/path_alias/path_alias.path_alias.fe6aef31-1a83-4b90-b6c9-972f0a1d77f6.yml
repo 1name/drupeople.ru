@@ -1,0 +1,20 @@
+uuid:
+  -
+    value: fe6aef31-1a83-4b90-b6c9-972f0a1d77f6
+langcode:
+  -
+    value: ru
+path:
+  target_type: taxonomy_term
+  target_uuid: bf2316d7-9900-4c1d-9dc3-ff58f8f4b350
+alias:
+  -
+    value: /category/linux
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.article_category.bf2316d7-9900-4c1d-9dc3-ff58f8f4b350

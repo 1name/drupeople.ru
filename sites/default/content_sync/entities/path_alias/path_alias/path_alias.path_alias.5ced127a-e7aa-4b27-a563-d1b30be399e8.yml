@@ -1,0 +1,20 @@
+uuid:
+  -
+    value: 5ced127a-e7aa-4b27-a563-d1b30be399e8
+langcode:
+  -
+    value: ru
+path:
+  target_type: taxonomy_term
+  target_uuid: e4e59bc8-48c1-4d5a-9f8e-7be26e5e4431
+alias:
+  -
+    value: /category/drupal-commerce
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.article_category.e4e59bc8-48c1-4d5a-9f8e-7be26e5e4431

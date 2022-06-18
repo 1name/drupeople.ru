@@ -1,0 +1,61 @@
+uuid:
+  -
+    value: 7ad02bfd-7f34-492b-a443-e2cb55fbcb85
+langcode:
+  -
+    value: ru
+type:
+  -
+    target_id: basic
+revision_created:
+  -
+    value: '2022-05-18T18:57:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log: {  }
+status:
+  -
+    value: true
+info:
+  -
+    value: Хостинг
+changed:
+  -
+    value: '2022-06-18T12:12:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+reusable:
+  -
+    value: true
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/main'
+    title: 'Главная страница | drupeople.ru'
+body:
+  -
+    value: "<div class=\"hosting__main\"><div class=\"hosting__container\">\r\n  <div class=\"hosting__info\">\r\n    <div class=\"hosting__title\">Профессиональный хостинг в Европе по низкой цене</div>\r\n    <ul class=\"hosting__services\">\r\n      <li class=\"item\">Shared от 0.9$</li>\r\n      <li class=\"item\">VPS от 1.8$</li>\r\n      <li class=\"item\">Domains от 1$</li>\r\n      <li class=\"item\">VPN от 0.9$</li>\r\n    </ul>\r\n  </div>\r\n  <div class=\"hosting__button\">\r\n    <a class=\"link\" href=\"https://www.hostens.com/?affid=233\" rel=\"nofollow\" target=\"_blank\">Перейти<a/>\r\n  </div>\r\n</div></div>\r\n"
+    format: full_html
+    processed: |
+      <div class="hosting__main"><div class="hosting__container">
+        <div class="hosting__info">
+          <div class="hosting__title">Профессиональный хостинг в Европе по низкой цене</div>
+          <ul class="hosting__services">
+            <li class="item">Shared от 0.9$</li>
+            <li class="item">VPS от 1.8$</li>
+            <li class="item">Domains от 1$</li>
+            <li class="item">VPN от 0.9$</li>
+          </ul>
+        </div>
+        <div class="hosting__button">
+          <a class="link" href="https://www.hostens.com/?affid=233" rel="nofollow" target="_blank">Перейти</a><a></a>
+        </div>
+      </div></div>
+    summary: ''
+    summary_processed: ''
+_content_sync:
+  entity_type: block_content

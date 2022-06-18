@@ -32,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2021-09-04T10:16:38+00:00'
+    value: '2022-06-10T08:21:47+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -91,6 +91,10 @@ body:
       <p> </p>
     summary: ''
     summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: bf2316d7-9900-4c1d-9dc3-ff58f8f4b350
 field_image:
   -
     target_type: media
@@ -102,10 +106,6 @@ field_metatags:
 field_source:
   -
     value: 'https://www.cyberciti.biz/faq/linux-set-change-password-how-to/'
-field_tags:
-  -
-    target_type: taxonomy_term
-    target_uuid: c8bb563d-c106-4a43-a56e-d1d34944abdc
 field_teaser:
   -
     value: "<p>Иногда нужно установить или изменить пароль пользователя в Linux. В этой статье я расскажу вам как это можно сделать.</p>\r\n"
@@ -117,7 +117,7 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.bf2316d7-9900-4c1d-9dc3-ff58f8f4b350
     media:
       - media.image.799752ee-e751-45da-a177-2c405adfbbd4
-    taxonomy_term:
-      - taxonomy_term.tags.c8bb563d-c106-4a43-a56e-d1d34944abdc

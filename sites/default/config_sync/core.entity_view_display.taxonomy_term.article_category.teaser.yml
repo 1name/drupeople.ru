@@ -1,0 +1,28 @@
+uuid: 857dd845-2b3a-454c-937c-41d354fe8b2f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.teaser
+    - field.field.taxonomy_term.article_category.field_image
+    - image.style.articles_category_preview
+    - taxonomy.vocabulary.article_category
+  module:
+    - image
+id: taxonomy_term.article_category.teaser
+targetEntityType: taxonomy_term
+bundle: article_category
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: articles_category_preview
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

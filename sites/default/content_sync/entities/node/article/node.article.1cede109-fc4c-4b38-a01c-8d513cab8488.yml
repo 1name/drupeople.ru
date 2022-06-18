@@ -32,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2021-09-04T10:18:00+00:00'
+    value: '2022-06-10T08:21:57+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -85,6 +85,10 @@ body:
       <p> </p>
     summary: ''
     summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: 19873cc2-27ec-445c-9e8c-cbbd18ef8d91
 field_image:
   -
     target_type: media
@@ -96,13 +100,6 @@ field_metatags:
 field_source:
   -
     value: 'https://drupal.stackexchange.com/questions/106103/how-do-i-get-the-current-path-alias-or-path'
-field_tags:
-  -
-    target_type: taxonomy_term
-    target_uuid: 3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4
-  -
-    target_type: taxonomy_term
-    target_uuid: db33bbc2-aa00-4813-bebe-5e6e7a5106a7
 field_teaser:
   -
     value: "<p>В этой статье я описал несколько способов как получить URL текущей страницы в Drupal 8</p>\r\n"
@@ -114,8 +111,7 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.19873cc2-27ec-445c-9e8c-cbbd18ef8d91
     media:
       - media.image.2936b150-32fd-4afb-940d-b169bd384925
-    taxonomy_term:
-      - taxonomy_term.tags.3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4
-      - taxonomy_term.tags.db33bbc2-aa00-4813-bebe-5e6e7a5106a7

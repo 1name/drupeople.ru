@@ -1,0 +1,119 @@
+uuid:
+  -
+    value: 8843bee3-2690-41e8-9ffc-0644dab548f0
+langcode:
+  -
+    value: ru
+type:
+  -
+    target_id: article
+revision_timestamp:
+  -
+    value: '2022-05-30T07:38:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+title:
+  -
+    value: 'Как сделать или восстановить дамп базы MySQL по SSH'
+created:
+  -
+    value: '2022-05-30T07:36:50+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:22:25+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/article/kak-sdelat-ili-vosstanovit-damp-bazy-mysql-po-ssh'
+    title: 'Как сделать или восстановить дамп базы MySQL по SSH | drupeople.ru'
+    description: 'как создать восстановить дамп базы данных mysql ssh'
+body:
+  -
+    value: "<p>Для начала вам нужно подключиться к вашему серверу по SSH.</p>\r\n\r\n<p>Чтобы сделать дамп базы данных, нужно выполнить команду:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">mysqldump  -u user -p password -P 3336 database_name &gt; dumpfile.sql</code></pre>\r\n\r\n<ul>\r\n\t<li>-u user это имя пользователя базы&nbsp;данных</li>\r\n\t<li>-p password это пароль пользователя базы&nbsp;данных</li>\r\n\t<li>-P порт mysql сервера, по умолчанию 3306 (можно не указывать)</li>\r\n\t<li>database_name это имя базы данных</li>\r\n\t<li>dumpfile.sql - путь и имя файла где будет создан дамп базы данных</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Чтобы восстановить БД из файла, нужно воспользоваться следующей командой:</p>\r\n\r\n<pre>\r\n<code class=\"language-bash\">mysql -u user -p password -P 3336 database_name &lt; dumpfile.sql</code></pre>\r\n\r\n<ul>\r\n\t<li>-u user это имя пользователя базы&nbsp;данных</li>\r\n\t<li>-p password это пароль пользователя базы&nbsp;данных</li>\r\n\t<li>-P порт mysql сервера, по умолчанию 3306 (можно не указывать)</li>\r\n\t<li>database_name это имя базы данных</li>\r\n\t<li>dumpfile.sql - путь и имя файла где находится&nbsp;дамп базы данных</li>\r\n</ul>\r\n"
+    format: editor
+    processed: |
+      <p>Для начала вам нужно подключиться к вашему серверу по SSH.</p>
+
+      <p>Чтобы сделать дамп базы данных, нужно выполнить команду:</p>
+
+      <pre>
+      <code class="language-bash">mysqldump  -u user -p password -P 3336 database_name &gt; dumpfile.sql</code></pre>
+
+      <ul>
+      	<li>-u user это имя пользователя базы данных</li>
+      	<li>-p password это пароль пользователя базы данных</li>
+      	<li>-P порт mysql сервера, по умолчанию 3306 (можно не указывать)</li>
+      	<li>database_name это имя базы данных</li>
+      	<li>dumpfile.sql - путь и имя файла где будет создан дамп базы данных</li>
+      </ul>
+
+      <p> </p>
+
+      <p>Чтобы восстановить БД из файла, нужно воспользоваться следующей командой:</p>
+
+      <pre>
+      <code class="language-bash">mysql -u user -p password -P 3336 database_name &lt; dumpfile.sql</code></pre>
+
+      <ul>
+      	<li>-u user это имя пользователя базы данных</li>
+      	<li>-p password это пароль пользователя базы данных</li>
+      	<li>-P порт mysql сервера, по умолчанию 3306 (можно не указывать)</li>
+      	<li>database_name это имя базы данных</li>
+      	<li>dumpfile.sql - путь и имя файла где находится дамп базы данных</li>
+      </ul>
+    summary: ''
+    summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: 0bb08508-657d-4ddc-9980-bf2884fadfac
+field_image:
+  -
+    target_type: media
+    target_uuid: d551068f-38d9-4811-84dd-5de85782067f
+field_metatags:
+  -
+    value:
+      description: 'как создать восстановить дамп базы данных mysql ssh'
+field_source:
+  -
+    value: 'https://simplebackups.com/blog/remote-mysql-database-backup-via-ssh-tunneling/'
+field_teaser:
+  -
+    value: "<p>Часто в процессе разработки требуется восстановить дамп БД. В этой статье вы узнаете как это сделать.</p>\r\n"
+    format: editor
+    processed: |
+      <p>Часто в процессе разработки требуется восстановить дамп БД. В этой статье вы узнаете как это сделать.</p>
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.0bb08508-657d-4ddc-9980-bf2884fadfac
+    media:
+      - media.image.d551068f-38d9-4811-84dd-5de85782067f

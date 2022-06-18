@@ -1,0 +1,22 @@
+uuid: 2e5f526c-52be-431b-b16b-255d9f7e6fef
+langcode: ru
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_article_category
+label: taxonomy_article_category
+type: 'canonical_entities:taxonomy_term'
+pattern: 'category/[term:name]'
+selection_criteria:
+  87335d0b-9a4c-459a-b4c3-021751e8c591:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 87335d0b-9a4c-459a-b4c3-021751e8c591
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      article_category: article_category
+selection_logic: and
+weight: -5
+relationships: {  }

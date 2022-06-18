@@ -1,0 +1,28 @@
+uuid: 523aad07-b062-4be9-a43c-2b4a81b1a346
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.article_category_preview_image
+    - field.field.taxonomy_term.article_category.field_image
+    - image.style.articles_category_preview
+    - taxonomy.vocabulary.article_category
+  module:
+    - image
+id: taxonomy_term.article_category.article_category_preview_image
+targetEntityType: taxonomy_term
+bundle: article_category
+mode: article_category_preview_image
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: articles_category_preview
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

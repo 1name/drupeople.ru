@@ -5,7 +5,8 @@
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
-
+  &__container
+    @extend .container
   &__top
     display: flex
     align-items: center
@@ -16,7 +17,6 @@
     .logo
       width: 15rem
       height: auto
-
 
   &__menu
     margin-left: auto
@@ -32,6 +32,8 @@
           text-decoration: none
           font-size: 1.2rem
           font-family: 'Montserrat', sans-serif
+        &:hover
+          text-decoration: underline
 
   &__search
     width: 70%

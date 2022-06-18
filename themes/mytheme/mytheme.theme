@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function mytheme_theme_suggestions_taxonomy_term_alter(&$suggestions, $variables) {
+  $elements = $variables['elements'];
+
+  if (isset($elements['#taxonomy_term']) && isset($elements['#theme']) && isset($elements['#view_mode'])) {
+    $term = $elements['#taxonomy_term'];
+
+    if ($term instanceof \Drupal\taxonomy\TermInterface) {
+      // taxonomy-term--{VOCAB_NAME}--{TEASER}
+      $suggestions[] = $elements['#theme'] . '__' . $term->bundle() . '__' . $elements['#view_mode'];
+      // taxonomy-term--{TERM_ID}--{TEASER}
+      $suggestions[] = $elements['#theme'] . '__' . $term->id() . '__' . $elements['#view_mode'];
+      // taxonomy-term--{TEASER}
+      $suggestions[] = $elements['#theme'] . '__' . $elements['#view_mode'];
+    }
+  }
+}

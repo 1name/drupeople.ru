@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: b4909491-afc8-4aa9-b9be-4a939640a0a7
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: linux.png
+uri:
+  -
+    value: 'public://2022-06/linux.png'
+    url: /sites/default/files/2022-06/linux.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 157593
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-06-10T08:17:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:17:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

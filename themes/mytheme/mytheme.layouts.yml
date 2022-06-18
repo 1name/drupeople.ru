@@ -1,7 +1,23 @@
-custom_articles:
+front_page:
+  label: Front page
+  category: custom
+  template: templates/panels_layouts/custom-front
+  regions:
+    body:
+      label: Body
+articles_categories_list_page:
+  label: Articles categories list page
+  category: custom
+  template: templates/panels_layouts/custom-articles-categories-list
+  regions:
+    body:
+      label: Body
+articles_list_page:
   label: Articles list page
   category: custom
-  template: templates/panels_layouts/custom-articles
+  template: templates/panels_layouts/custom-articles-list
   regions:
+    header:
+      label: Header
     body:
       label: Body

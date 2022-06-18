@@ -1,0 +1,12 @@
+uuid: aad46c6c-0e98-4477-bec7-6c7b7ba1654f
+langcode: ru
+status: true
+dependencies: {  }
+id: articles
+label: Статьи
+description: ''
+use_admin_theme: false
+path: /articles
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,25 @@
+uuid: 44dbad3f-5abd-4d7b-855a-5f5779fe1bb8
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7ad02bfd-7f34-492b-a443-e2cb55fbcb85'
+  module:
+    - block_content
+  theme:
+    - mytheme
+id: hosting
+theme: mytheme
+region: hosting
+weight: 0
+provider: null
+plugin: 'block_content:7ad02bfd-7f34-492b-a443-e2cb55fbcb85'
+settings:
+  id: 'block_content:7ad02bfd-7f34-492b-a443-e2cb55fbcb85'
+  label: Хостинг
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

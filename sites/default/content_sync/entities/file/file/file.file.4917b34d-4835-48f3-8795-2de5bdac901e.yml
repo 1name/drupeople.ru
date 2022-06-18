@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 4917b34d-4835-48f3-8795-2de5bdac901e
+langcode:
+  -
+    value: ru
+uid:
+  -
+    target_type: user
+    target_uuid: 0773a8b2-1244-4916-a1bf-1f5f23e46286
+filename:
+  -
+    value: d8-logo.jpg
+uri:
+  -
+    value: 'public://2022-06/d8-logo.jpg'
+    url: /sites/default/files/2022-06/d8-logo.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 35267
+status:
+  -
+    value: true
+created:
+  -
+    value: '2022-06-10T08:16:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2022-06-10T08:16:52+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286

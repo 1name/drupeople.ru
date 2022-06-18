@@ -32,7 +32,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2022-02-26T22:13:10+00:00'
+    value: '2022-06-10T08:22:03+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -102,6 +102,10 @@ body:
       <p>После запуска Docker Desktop не забудьте удалить бекап файлового хранилища.</p>
     summary: ''
     summary_processed: ''
+field_category:
+  -
+    target_type: taxonomy_term
+    target_uuid: dd4f7c9d-59ad-4f79-a866-83e1361653b9
 field_image:
   -
     target_type: media
@@ -113,10 +117,6 @@ field_metatags:
 field_source:
   -
     value: 'https://stackoverflow.com/questions/62441307/how-can-i-change-the-location-of-docker-images-when-using-docker-desktop-on-wsl2'
-field_tags:
-  -
-    target_type: taxonomy_term
-    target_uuid: 2b0d6a9f-9663-4e97-9955-dbbcf336673e
 field_teaser:
   -
     value: "<p>Нужно изменить расположение файлового хранилища Docker Desktop? Тогда переходи по ссылке.</p>\r\n"
@@ -128,7 +128,7 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.0773a8b2-1244-4916-a1bf-1f5f23e46286
+    taxonomy_term:
+      - taxonomy_term.article_category.dd4f7c9d-59ad-4f79-a866-83e1361653b9
     media:
       - media.image.4367a596-db45-4c86-a8b5-9a59326dd7c7
-    taxonomy_term:
-      - taxonomy_term.tags.2b0d6a9f-9663-4e97-9955-dbbcf336673e

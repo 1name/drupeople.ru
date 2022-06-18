@@ -1,0 +1,48 @@
+uuid:
+  -
+    value: 85e6eafd-51ab-4659-8086-3687c099b689
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: tags
+revision_created:
+  -
+    value: '2022-05-28T09:43:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: Git
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2022-05-28T09:43:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/tag/git'
+    title: 'Git | drupeople.ru'
+_content_sync:
+  entity_type: taxonomy_term

@@ -1,18 +1,18 @@
-uuid: c29a47c5-5d54-48b2-94ff-e7c597cce09a
+uuid: 672cd1cc-ab9e-442b-b4ca-002fe126ffcd
 langcode: ru
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tags
+    - field.storage.node.field_category
     - node.type.article
-    - taxonomy.vocabulary.tags
-id: node.article.field_tags
-field_name: field_tags
+    - taxonomy.vocabulary.article_category
+id: node.article.field_category
+field_name: field_category
 entity_type: node
 bundle: article
-label: Теги
+label: Категория
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tags: tags
+      article_category: article_category
     sort:
       field: name
       direction: asc

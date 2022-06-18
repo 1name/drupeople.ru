@@ -1,0 +1,48 @@
+uuid:
+  -
+    value: 94572b39-e498-4f1d-b352-c4f514385317
+langcode:
+  -
+    value: ru
+vid:
+  -
+    target_id: tags
+revision_created:
+  -
+    value: '2022-05-30T06:58:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+status:
+  -
+    value: true
+name:
+  -
+    value: 'Drupal Commerce'
+description:
+  -
+    value: null
+    format: null
+    processed: ''
+weight:
+  -
+    value: 0
+parent:
+  -
+    target_id: 0
+changed:
+  -
+    value: '2022-05-30T06:58:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+metatag:
+  value:
+    canonical_url: 'http://default/tag/drupal-commerce'
+    title: 'Drupal Commerce | drupeople.ru'
+_content_sync:
+  entity_type: taxonomy_term
