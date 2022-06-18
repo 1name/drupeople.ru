@@ -12,4 +12,5 @@ regions:
   header: 'Header'
   breadcrumb: 'Breadcrumb'
   content: 'Content'
+  hosting: 'Hosting'
   footer: 'Footer'
