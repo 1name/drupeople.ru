@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /node/1
+  target_type: node
+  target_uuid: 1cede109-fc4c-4b38-a01c-8d513cab8488
 alias:
   -
     value: /article/kak-poluchit-url-adres-stranicy-drupal-8
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    node:
+      - node.article.1cede109-fc4c-4b38-a01c-8d513cab8488

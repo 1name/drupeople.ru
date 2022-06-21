@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /taxonomy/term/4
+  target_type: taxonomy_term
+  target_uuid: 06009d73-6546-4c59-8f7c-384588f0bc13
 alias:
   -
     value: /tag/views
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.tags.06009d73-6546-4c59-8f7c-384588f0bc13
