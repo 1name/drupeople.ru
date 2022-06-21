@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /taxonomy/term/1
+  target_type: taxonomy_term
+  target_uuid: 3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4
 alias:
   -
     value: /tag/drupal-8
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.tags.3ac7cca0-bb36-4644-bd26-9bc2bf4e5fe4

@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /taxonomy/term/5
+  target_type: taxonomy_term
+  target_uuid: 2b0d6a9f-9663-4e97-9955-dbbcf336673e
 alias:
   -
     value: /tag/docker
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.tags.2b0d6a9f-9663-4e97-9955-dbbcf336673e

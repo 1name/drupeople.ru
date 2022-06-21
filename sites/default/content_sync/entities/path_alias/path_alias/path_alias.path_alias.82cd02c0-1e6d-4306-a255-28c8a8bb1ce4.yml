@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /node/4
+  target_type: node
+  target_uuid: a82d7379-3ef9-4fa6-8471-c04f7d31dedf
 alias:
   -
     value: /article/kak-izmenit-raspolozhenie-virtualnogo-diska-docker-windows
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    node:
+      - node.article.a82d7379-3ef9-4fa6-8471-c04f7d31dedf

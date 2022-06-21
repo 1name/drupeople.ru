@@ -5,8 +5,8 @@ langcode:
   -
     value: ru
 path:
-  -
-    value: /taxonomy/term/6
+  target_type: taxonomy_term
+  target_uuid: 7348f123-590f-4b5c-8393-58c6012212f4
 alias:
   -
     value: /tag/mysql
@@ -15,3 +15,6 @@ status:
     value: true
 _content_sync:
   entity_type: path_alias
+  entity_dependencies:
+    taxonomy_term:
+      - taxonomy_term.tags.7348f123-590f-4b5c-8393-58c6012212f4
