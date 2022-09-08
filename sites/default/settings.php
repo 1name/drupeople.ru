@@ -782,8 +782,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 
 $settings['config_sync_directory'] = 'sites/default/config_sync';
-global $content_directories;
-$content_directories['sync'] = 'sites/default/content_sync';
 
  if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
    include $app_root . '/' . $site_path . '/settings.local.php';
