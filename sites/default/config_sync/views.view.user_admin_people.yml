@@ -877,7 +877,7 @@ display:
       show_admin_links: true
       use_more: false
       use_more_always: false
-      use_more_text: ещё
+      use_more_text: more
       link_display: page_1
       link_url: ''
       display_comment: ''
