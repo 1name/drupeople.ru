@@ -94,9 +94,9 @@ settings:
         xhtml: xhtml
         xml: xml
 image_upload:
-  status: false
+  status: true
   scheme: public
-  directory: inline-images
+  directory: ''
   max_size: ''
   max_dimensions:
     width: null
