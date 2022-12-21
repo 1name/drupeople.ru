@@ -17,6 +17,7 @@ module:
   ctools: 0
   ctools_block: 0
   ctools_entity_mask: 0
+  custom_breadcrumbs: 0
   datetime: 0
   dblog: 0
   devel: 0
