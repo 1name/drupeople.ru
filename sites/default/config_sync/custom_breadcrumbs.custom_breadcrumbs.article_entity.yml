@@ -1,0 +1,15 @@
+uuid: a62a789a-3f29-4ab3-b21a-1670a83a0482
+langcode: ru
+status: true
+dependencies: {  }
+id: article_entity
+label: Статья
+description: ''
+entityType: node
+entityBundle: article
+language: und
+breadcrumbPaths: '[node:field_category:entity:url]'
+breadcrumbTitles: '[node:field_category:entity:name]'
+type: '1'
+pathPattern: ''
+extraCacheContexts: ''

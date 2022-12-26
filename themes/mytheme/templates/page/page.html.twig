@@ -51,21 +51,15 @@
     {{ page.header }}
   </header>
 
-    {# {{ page.breadcrumb }} #}
     {{ page.highlighted }}
     {{ page.help }}
 
     <main role="main" class="main">
       <div class="main__container">
+        {{ page.breadcrumb }}
         {{ page.content }}
       </div>
     </main>
-
-    {% if page.hosting %}
-      <section class="hosting">
-        {{ page.hosting }}
-      </section>
-    {% endif %}
 
     {% if page.footer %}
       <footer role="contentinfo">
