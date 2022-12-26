@@ -1,0 +1,19 @@
+name: deploy-prod-action
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: 'Deploy to production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy
+        run: |
+          cd ~/www/drupeople.ru
+          git pull
+          php vendor/bin/drush cim
+          php vendor/bin/drush cr
