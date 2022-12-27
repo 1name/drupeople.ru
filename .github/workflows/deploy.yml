@@ -1,22 +1,24 @@
 name: deploy-prod-action
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
   pull_request:
-    branches:
-      - main
+    branches: [ master ]
 jobs:
   deploy:
-    name: 'Deploy to production'
     runs-on: ubuntu-latest
     steps:
-      - uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy
-        run: |
-          cd ~/www/drupeople.ru
-          git pull
-          php vendor/bin/drush cim
-          php vendor/bin/drush cr
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd ~/www/drupeople.ru
+            git fetch origin master
+            git reset --hard FETCH_HEAD
+            composer i
+            php vendor/bin/drush updb -y
+            php vendor/bin/drush cim -y
+            php vendor/bin/drush cr
+          host: ${{ secrets.SSH_HOST }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
