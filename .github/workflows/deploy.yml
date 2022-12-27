@@ -1,0 +1,24 @@
+name: deploy-prod-action
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd ~/www/drupeople.ru
+            git fetch origin master
+            git reset --hard FETCH_HEAD
+            composer i
+            php vendor/bin/drush updb -y
+            php vendor/bin/drush cim -y
+            php vendor/bin/drush cr
+          host: ${{ secrets.SSH_HOST }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
