@@ -7,7 +7,6 @@ modules/contrib
 sites/*/private
 sites/*/modules/README.txt
 sites/*/themes/README.txt
-/composer.lock
 /example.gitignore
 /.lando.yml
 /.csslintrc
