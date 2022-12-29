@@ -21,10 +21,8 @@
             </span>
           </a>
         {% else %}
-          <span itemprop="item">
-            <span itemprop="name">
-              {{ item.text }}
-            </span>
+          <span itemprop="name">
+            {{ item.text }}
           </span>
         {% endif %}
         <meta itemprop="position" content="{{ loop.index }}" />
