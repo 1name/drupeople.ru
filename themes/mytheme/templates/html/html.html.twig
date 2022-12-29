@@ -47,11 +47,25 @@
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token }}">
     <js-placeholder token="{{ placeholder_token }}">
+
+    <!-- Yandex.RTB -->
+    <script>window.yaContextCb=window.yaContextCb||[]</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
   </head>
   <body{{ attributes }}>
     {{ page_top }}
     {{ page }}
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token }}">
+
+    <!-- Yandex.RTB R-A-2003742-1 -->
+    <div id="yandex_rtb_R-A-2003742-1"></div>
+    <script>window.yaContextCb.push(()=>{
+      Ya.Context.AdvManager.render({
+        renderTo: 'yandex_rtb_R-A-2003742-1',
+        blockId: 'R-A-2003742-1'
+      })
+    })
+    </script>
   </body>
 </html>
