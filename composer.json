@@ -33,6 +33,7 @@
         "drupal/panels": "^4.6",
         "drupal/pathauto": "^1.8",
         "drupal/redirect": "^1.7",
+        "drupal/schema_metatag": "2.4",
         "drupal/search_api": "^1.25",
         "drupal/views_arg_entity_field": "2.0",
         "drupal/views_fieldsets": "^3.4",
