@@ -1,0 +1,16 @@
+uuid: c6284fcd-2ee6-4be8-bb8b-65e7eae77db4
+langcode: ru
+status: true
+dependencies: {  }
+id: node__article
+label: 'Content: Статья'
+tags:
+  schema_article_author: 'a:3:{s:5:"@type";s:6:"Person";s:4:"name";s:11:"[site:name]";s:3:"url";s:10:"[site:url]";}'
+  schema_article_date_modified: '[node:changed]'
+  schema_article_date_published: '[node:created]'
+  schema_article_description: '[node:field_metatags:description:value]'
+  schema_article_headline: '[node:title]'
+  schema_article_is_accessible_for_free: 'True'
+  schema_article_main_entity_of_page: '[current-page:url]'
+  schema_article_publisher: 'a:3:{s:5:"@type";s:6:"Person";s:4:"name";s:11:"[site:name]";s:3:"url";s:10:"[site:url]";}'
+  schema_article_type: Article
