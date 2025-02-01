@@ -12,7 +12,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: |
-            cd ~/www/drupeople.ru
+            cd ${{ secrets.SSH_DOCUMENT_ROOT }}
             git fetch origin master
             git reset --hard FETCH_HEAD
             composer i
@@ -21,4 +21,4 @@ jobs:
             php vendor/bin/drush cr
           host: ${{ secrets.SSH_HOST }}
           user: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          pass: ${{ secrets.SSH_PASSWORD }}
